@@ -20,7 +20,7 @@ func main() {
 		// fmt.Scan() note que todas as func usadas da lib padrão fmt começam com UPPERCASE
 		// perceba que a func PhoneNumber() começa com UPPERCASE
 		fmt.Println("Random phone number:", randomdata.PhoneNumber())
-		fmt.Println("Random phone number:", randomdata.Address())
+		fmt.Println("Random Address:", randomdata.Address())
 		ops.PresentOpt()
 		ops.UserChoices()
 
