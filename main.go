@@ -21,6 +21,10 @@ func main() {
 		// perceba que a func PhoneNumber() começa com UPPERCASE
 		fmt.Println("Random phone number:", randomdata.PhoneNumber())
 		fmt.Println("Random Address:", randomdata.Address())
+		fmt.Println("Random phone number:", randomdata.PhoneNumber())
+		fmt.Println("Random phone number:", randomdata.PhoneNumber())
+
+
 		ops.PresentOpt()
 		ops.UserChoices()
 
